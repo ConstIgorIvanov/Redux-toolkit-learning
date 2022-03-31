@@ -1,0 +1,97 @@
+.active {
+  color: darkblue;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  display: flex;
+  font-size: 24px;
+  padding: 10px;
+  background-color: aquamarine;
+  justify-content: center;
+}
+
+.navlink {
+  font-size: 34px;
+}
+
+.navlink:not(:last-child) {
+  margin-right: 100px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 98vw;
+  height: 90vh;
+}
+
+.name_container {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.input_container {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height: 30px;
+  width: 300px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.name,
+.last_name {
+  margin: 15px;
+}
+
+li {
+  text-align: center;
+  border: 1px solid gray;
+  list-style-type: none;
+  padding: 10px;
+  margin: 5px;
+  transition: all 0.2s;
+}
+
+li:hover {
+  border-color: black;
+  box-shadow: 0 0 2px blue;
+}
+
+button {
+  border: 1px solid gray;
+  background-color: transparent;
+  width: 200px;
+  height: 40px;
+}
+
+button:hover {
+  box-shadow: 0 0 2px darkblue;
+}
+.title {
+  text-align: center;
+}
+
+.completed {
+  color: green;
+  border-color: green;
+}
+
+.completed:hover {
+  border-color: green;
+  box-shadow: 0 0 4px green;
+}
