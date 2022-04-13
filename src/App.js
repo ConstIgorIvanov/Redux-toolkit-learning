@@ -13,15 +13,15 @@ function App() {
       <Header></Header>
       <Routes>
         <Route
-          path="/react-gh-pages"
+          path="/Redux-toolkit-learning"
           element={<ReduxState></ReduxState>}
         ></Route>
         <Route
-          path="/react-gh-pages/thunk"
+          path="/Redux-toolkit-learning/thunk"
           element={<ReduxThunk></ReduxThunk>}
         ></Route>
         <Route
-          path="/react-gh-pages/todo"
+          path="/Redux-toolkit-learning/todo"
           element={<ReduxTodo></ReduxTodo>}
         ></Route>
       </Routes>
