@@ -13,7 +13,7 @@ function App() {
       <Header></Header>
       <Routes>
         <Route
-          path="/Redux-toolkit-learning"
+          path="/Redux-toolkit-learning/state"
           element={<ReduxState></ReduxState>}
         ></Route>
         <Route

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom"
 const Header = () =>{
     return (
       <div className="header">
-        <NavLink to="/Redux-toolkit-learning" className="navlink">
+        <NavLink to="/Redux-toolkit-learning/state" className="navlink">
           Redux Toolkit State
         </NavLink>
         <NavLink to="Redux-toolkit-learning/todo" className="navlink">
