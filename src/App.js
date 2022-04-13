@@ -12,9 +12,18 @@ function App() {
     <div>
       <Header></Header>
       <Routes>
-        <Route path="/state" element={<ReduxState></ReduxState>}></Route>
-        <Route path="/thunk" element={<ReduxThunk></ReduxThunk>}></Route>
-        <Route path="/todo" element={<ReduxTodo></ReduxTodo>}></Route>
+        <Route
+          path="/react-gh-pages"
+          element={<ReduxState></ReduxState>}
+        ></Route>
+        <Route
+          path="/react-gh-pages/thunk"
+          element={<ReduxThunk></ReduxThunk>}
+        ></Route>
+        <Route
+          path="/react-gh-pages/todo"
+          element={<ReduxTodo></ReduxTodo>}
+        ></Route>
       </Routes>
     </div>
   );
