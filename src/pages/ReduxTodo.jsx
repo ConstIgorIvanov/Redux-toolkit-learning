@@ -1,6 +1,12 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { addTodo, deleteTodo, toggleTodo } from "../features/todo/todoSlice";
+import {
+  addTodo,
+  deleteTodo,
+  toggleTodo,
+  sortTodoAZ,
+  sortTodoZA
+} from "../features/todo/todoSlice";
 
 const ReduxTodo = () => {
   const [value, setValue] = React.useState("");
@@ -18,6 +24,8 @@ const ReduxTodo = () => {
       <h1 className="title">Redux Toolkit Todo App</h1>
       <input value={value} onChange={(e) => setValue(e.target.value)}></input>
       <button onClick={() => addTodoHandler()}>ADD</button>
+      <button onClick={() => dispatch(sortTodoAZ())}> SORT A -> Z </button>
+      <button onClick={() => dispatch(sortTodoZA())}> SORT Z -> A </button>
       <div>
         {list.map((i) => {
           return (
